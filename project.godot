@@ -10,7 +10,7 @@ config_version=5
 
 [application]
 
-config/name="2D"
+config/name="Untitled Dungeon Game"
 run/main_scene="uid://b3gttd6f2k4by"
 config/features=PackedStringArray("4.5", "Mobile")
 config/icon="res://icon.svg"
