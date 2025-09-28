@@ -17,10 +17,8 @@ func _process(_delta: float) -> void:
 			get_tree().root.add_child(bullet_instance)
 			bullet_instance.global_position = global_position
 			bullet_instance.rotation = rotation
-			timer.start()
-			
+			timer.start()			
 
 
 func _on_timer_timeout() -> void:
 	gun = 1
-	print("1")

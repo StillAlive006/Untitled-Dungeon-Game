@@ -1,9 +1,8 @@
-[gd_scene load_steps=9 format=4 uid="uid://b3gttd6f2k4by"]
+[gd_scene load_steps=8 format=4 uid="uid://b3gttd6f2k4by"]
 
 [ext_resource type="Texture2D" uid="uid://bl32oub2kqyis" path="res://icon.svg" id="1_uu6xs"]
 [ext_resource type="PackedScene" uid="uid://b32sktibnxfcy" path="res://gun.tscn" id="2_cm0pq"]
 [ext_resource type="Texture2D" uid="uid://btlhi83ln2ut5" path="res://Screenshot 2025-09-26 143227.png" id="2_r0du0"]
-[ext_resource type="PackedScene" uid="uid://cm50pwut6rcx3" path="res://node_2d.tscn" id="3_cm0pq"]
 
 [sub_resource type="GDScript" id="GDScript_cm0pq"]
 script/source = "extends CharacterBody2D
@@ -68,8 +67,6 @@ shape = SubResource("RectangleShape2D_fos0i")
 [node name="Camera2D" type="Camera2D" parent="Player"]
 
 [node name="gun" parent="Player" instance=ExtResource("2_cm0pq")]
-
-[node name="Node2D" parent="Player" instance=ExtResource("3_cm0pq")]
 
 [node name="TileMapLayer" type="TileMapLayer" parent="."]
 position = Vector2(-3.2311743e-27, 4.7683716e-07)
