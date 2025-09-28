@@ -1,9 +1,10 @@
 extends Node2D
 @onready var timer: Timer = $Timer
 
-const BULLET = preload("res://bullet.tscn")
+const BULLET = preload("res://area_2d.tscn")
 
 var gun = 1
+
 
 func _process(_delta: float) -> void:
 	look_at(get_global_mouse_position())
@@ -22,3 +23,5 @@ func _process(_delta: float) -> void:
 
 func _on_timer_timeout() -> void:
 	gun = 1
+	
+	

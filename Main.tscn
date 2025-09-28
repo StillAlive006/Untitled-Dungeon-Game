@@ -53,6 +53,7 @@ physics_layer_0/collision_layer = 1
 sources/0 = SubResource("TileSetAtlasSource_3dxm6")
 
 [node name="Main" type="Node"]
+metadata/_edit_vertical_guides_ = [-702.0]
 
 [node name="Player" type="CharacterBody2D" parent="."]
 script = SubResource("GDScript_cm0pq")
