@@ -1,7 +1,7 @@
 extends Node2D
 
 
-const SPEED: int = 300
+const SPEED: int = 600
 var t = true
 
 
