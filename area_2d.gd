@@ -1,7 +1,7 @@
 extends Area2D
 
 
-const SPEED: int = 600
+const SPEED: int = 1000
 var t = true
 
 
